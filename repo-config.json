@@ -8,7 +8,7 @@
     "enableIaC": true
   },
   "leastVulnerablePackageSettings": {
-    "enabled": true
+    "enabled": true
   },
   "scanSettingsSAST": {
     "enableScan": true,
