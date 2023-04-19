@@ -7,8 +7,8 @@
     "enableLicenseViolations": true,
     "enableIaC": true
   },
-  "leastVulnerablePackageSettings": {                
-   "enabled": true
+  "leastVulnerablePackageSettings": {
+    "enabled": true
   },
   "scanSettingsSAST": {
     "enableScan": true,
