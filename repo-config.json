@@ -7,6 +7,9 @@
     "enableLicenseViolations": true,
     "enableIaC": true
   },
+  "leastVulnerablePackageSettings": {                
+   "enabled": true
+  },
   "scanSettingsSAST": {
     "enableScan": true,
     "scanPullRequests": true,
@@ -30,6 +33,7 @@
     "workflowRules": {
       "enabled": true,
       "minVulnerabilitySeverity": "HIGH"
-    }
+    },
+    "extends": ["github>whitesource/merge-confidence:beta"]
   }
 }
