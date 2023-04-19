@@ -9,7 +9,7 @@
   },
   "leastVulnerablePackageSettings": {
     "enabled": true
-  },
+  },
   "scanSettingsSAST": {
     "enableScan": true,
     "scanPullRequests": true,
