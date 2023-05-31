@@ -26,13 +26,13 @@
     "severityThreshold": "high"
   },
   "issueSettings": {
-    "minSeverityLevel": "HIGH",
+    "minSeverityLevel": "LOW",
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
     "workflowRules": {
       "enabled": true,
-      "minVulnerabilitySeverity": "HIGH"
+      "minVulnerabilitySeverity": "LOW"
     },
     "extends": ["github>whitesource/merge-confidence:beta"]
   }
